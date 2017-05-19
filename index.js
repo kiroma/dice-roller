@@ -20,12 +20,4 @@ function roll(array){ //RNG
   }
   return c;
 }
-var input = prompt(); //Can be replaced with any other input method.
-var parsed = parser(input); //debugging
-console.log(parsed); //debugging
-for(count=0; parsed[count]; count++){ //Writes to page output from all rolls
-  document.write(roll(parsed[count]));
-  document.write("<br>");
-}
-document.write("<br>");
 
